@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+    /*993 - 1200 */
+    .container {
+        max-width: 960px;
+    }
+
+    .col-4 {
+        width: 33.3333%;
+        padding: 0 15px;
+    }
+}
+
+
+/*}*/
+/*@media (max-width: 576px) {*/
+/*    !*328 - 576 *!*/
+/*    .container {*/
+/*        max-width: 340px;*/
+/*    }*/
+/*}*/
+/*.col-4 {*/
+/*    width: 100%;*/
+/*}*/
