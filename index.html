@@ -56,17 +56,18 @@
 </div>
 <section class="total-services">
   <div class="container">
-    <label for="total" class="total-title">Total liters:</label><br>
-    <input type="text"  id="total" value>
+    <label for="totalLiters" class="totalLiters">Total liters:</label>
+    <input type="number"  id="totalLiters" value class="inputLiters">
+    <button class="print-bill">Bill</button>
 
   <div class="box-total">
-    <h3 class="total-desc">Bill:</h3>
-    <h3>Petrol type: </h3>
-    <h3 class="total-text">Price for one liter: </h3>
-    <h3 class="total-text">Total liters: </h3>
-    <h3 class="total-text">VAT: </h3>
-    <h2 class="total-text">Total price: </h2>
+    <p class="litersSubtitle">Bill:</p>
+    <p class="petrolTypeBill">Petrol type: <span></span></p>
+    <p class="priceForOneBill">Price for one liter: <span></span></p>
+    <p class="totalLitersBill">Total liters: <span></span></p>
+    <p class="vatBill">VAT: <span>5%</span></p>
   </div>
+    <div class="totalPriceBill">Total price: <span></span></div>
   </div>
 </section>
 
